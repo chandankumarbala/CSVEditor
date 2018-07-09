@@ -1,0 +1,31 @@
+<html>
+<head>
+<link href="https://cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css" rel="stylesheet" media="screen">
+<link href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+<script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<script src="./parse.js"></script>
+</head>
+
+<body>
+    <textarea id="content" rows="10" cols="70">
+"refno","title","author","year","price","date"
+"1001","CPP","MILTON","2008","456","12/23/2017"
+"1002","JAVA","Gilson","2002","456","08/25/2018"
+"1003","Adobe Flex","Johnson","2010","566","01/23/2016"
+"1004","General Knowledge","Sinson","2007","465","10/03/2018"
+"1005","Actionscript","Gilto","2008","480","11/03/2018"
+    </textarea>
+    <input type="button" value="Display"  id="showTable">
+
+    <table id="excel" class="display" style="width:100%">
+           
+    </table>
+
+    <textarea id="contentFiltered" rows="10" cols="70"></textarea>
+</body>
+</html>
